@@ -1,22 +1,26 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'CooperHewitt-Bold';
+  src: url('./assets/fonts/CooperHewitt-Bold.eot'); 
+  src: url('./assets/fonts/CooperHewitt-Bold.ttf') format('ttf'), 
+       url('./assets/fonts/CooperHewitt-Bold.woff2') format('woff2'), 
+       url('./assets/fonts/CooperHewitt-Bold.woff') format('woff'), 
+       url('./assets/fonts/CooperHewitt-Bold.svg') format('svg'); 
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face {
+  font-family: 'GTPressuraMono';
+  src: url('./assets/fonts/GTPressuraMono.eot'); 
+  src: url('./assets/fonts/GTPressuraMono.ttf') format('ttf'), 
+       url('./assets/fonts/GTPressuraMono.woff2') format('woff2'), 
+       url('./assets/fonts/GTPressuraMono.woff') format('woff'), 
+       url('./assets/fonts/GTPressuraMono.svg') format('svg'); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'GT-Pressura-Regular';
+  src: url('./assets/fonts/GT-Pressura-Regular.eot'); 
+  src: url('./assets/fonts/GT-Pressura-Regular.ttf') format('ttf'), 
+       url('./assets/fonts/GT-Pressura-Regular.woff2') format('woff2'), 
+       url('./assets/fonts/GT-Pressura-Regular.woff') format('woff'); 
 }
 
-.App-link {
-  color: #09d3ac;
-}

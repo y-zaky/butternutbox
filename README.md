@@ -1,3 +1,39 @@
+# ButternutBox Challenge 💡
+I was asked to build some UI, and I loved the challenge!
+
+# Features! 💻
+
+  - [x] Uses React on the front end (create-react-app), with Hooks!
+  - [x] Can click outside of modal to close
+  - [x] A little animation 😃
+  - [x] As close to the design as I could (I found that the colours provided seemed wrong), and did not have any pixel perfect sizes!
+  - [x] I hard coded in one month of a calender ! Super fun as I'd never done that before
+  
+    
+  # ToDo's 🔧
+  - [ ] Write Tests
+  - [ ] Improve design
+  - [ ] Fix bugs
+  - [ ] Allow filtered searches (eg repos made in the last 7 days)
+  - [ ] Smarter CSS ? Also figure out how to make a better curve for the closed modal!
+  - [ ] Figure out a more modular way for setting the day of the month 😅
+  
+
+ # Key Learning Takeaway's 📚
+ Thank you for giving me this project. I spent a few hours each day over 2 days to build it. I am grateful because..
+  - I have never used CSS grid before, and I really enjoyed making a custom calender for the month of August with it. I just dove straight into doing it rather than finding a react calender modal which may not have suited the design :D. It was really fun !
+  - https://imagecolorpicker.com/ A Fantastic resource for figuring out the correct colours!
+
+  - https://www.cssmatic.com/box-shadow I absolutley loved using this tool to guess the box-shadow from the images I was provided. 
+
+### Installation
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd butternutbox
+$ npm i
+$ npm start
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +102,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+License
+----
+
+MIT
